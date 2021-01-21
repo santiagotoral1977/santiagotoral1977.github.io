@@ -1,0 +1,33 @@
+#info{
+    width: 80%;
+    margin: 0px auto;
+    /*Grid*/
+    grid-area: my-banner;
+    #banner{
+        width: 100%;
+        border: 10px solid white;
+        box-shadow: 0px 0px 2px gray;
+        margin-top: 20px;
+        text-align: center;
+        overflow: hidden;
+        background-image: url("../img/bakbaner.png");
+        background-position: -319px -201px;
+
+        //Animación del banner
+        animation: backBanner 10s linear;
+        h1{
+            color: white;
+            font: {
+                family: "BebasNeue";
+                size: 3rem;
+                weight: normal;
+            }
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 1px black;
+            padding: 20px;
+
+            //Animación del texto
+            animation: showText 10s linear;
+        }
+    }
+}

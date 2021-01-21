@@ -1,0 +1,94 @@
+#articles{
+    width: 84%;
+    margin-top: 55px;
+    /*Grid*/
+    grid-area: my-articles;
+    justify-self: end;
+    /*Flex*/
+    display: flex;
+    flex-flow: column wrap;
+    h2{
+        width: 100%;
+        background-image: url("../img/pxgray.png");
+        box-shadow: $sombra3d-encabezados;
+        font: {
+            size: 2.3rem;
+            family: "BebasNeue";
+            weight: normal;
+        }
+        letter-spacing: 2px;
+        text-align: center;
+        line-height: 67px;
+
+    }
+    article{
+        margin-top: 35px;
+        background-color: white;
+        border: 1px solid #cccccc;
+        padding: 10px;
+        font-family: "TrebuchetMS";
+        color: black;
+        box-shadow: 1px 1px 2px #dddddd;
+        /*Flex*/
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        h4{
+            font-size: 1.3rem;
+            margin: 3px;
+            a{
+                color: #00538c;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+        .data{
+            background-color: #393d3f;
+            color: white;
+            height: 30px;
+            line-height: 30px;
+            padding: 0px 4px 0px 4px;
+            font-size: 0.7rem;
+            margin: -10px;
+            border-radius: 0px 0px 0px 5px;
+            span{
+                margin: 6px;
+            }
+        }
+        p{
+            margin: 10px 0px 10px 0px;
+            font-size: 0.9rem;
+        }
+    }
+    #blog{
+        text-align: center;
+        transition: all 1s;
+        &:hover{
+            background-color: #333333;
+            border: 10px solid $azul-claro;
+            border-radius: 240px;
+            box-shadow: 0px 0px 10px gray;
+
+            /*Animación para el borde*/
+            animation: blink 10s infinite linear;
+        }
+        a{
+            width: 100%;
+            color: #00538c;
+            text-transform: uppercase;
+            font: {
+                size: 2.3rem;
+                family: "BebasNeue";
+                weight: bold;
+            }
+            letter-spacing: 2px;
+            padding: 20px 0px 20px 0px;
+            transition: all 1s;
+            &:hover{
+                color: white;
+                text-shadow: $texto3d;
+            }
+        }
+    }
+}

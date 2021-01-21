@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url("../img/pattern.png");
+    float: none;
+}
+
+#container{
+    width: 100%;
+    margin: 0px auto;
+    min-height: 100vh;
+    /*Grid*/
+    display: grid;
+    grid-template-columns: 65% 29%;
+    grid-template-rows: 70px 530px 1fr 470px;
+    column-gap: 6%;
+    grid-template-areas:
+    "my-header my-header"
+    "my-banner my-banner"
+    "my-articles my-aside"
+    "my-footer my-footer";
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon{
+    font-family: "WebSymbolsRegular";
+}

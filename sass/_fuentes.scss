@@ -1,0 +1,32 @@
+/*Fuentes personalizadas*/
+
+@font-face{
+    font: {
+        family: "TrebuchetMS";
+        weight: normal;
+        style: normal;
+    }
+    src: url("../css/fonts/TrebuchetMS.ttf");
+}
+
+@font-face{
+    font: {
+        family: "BebasNeue";
+        weight: normal;
+        style: normal;
+    }
+    src: url("../css/fonts/BebasNeue.otf");
+}
+
+@font-face{
+    font: {
+        family: "WebSymbolsRegular";
+        weight: normal;
+        style: normal;
+    }
+    src: url("../css/fonts/websymbols-regular-webfont.eot");
+    src: url("../css/fonts/websymbols-regular-webfont.eot?#iefix") format("embedded-opentype"),
+         url("../css/fonts/websymbols-regular-webfont.woff") format("woff"),
+         url("../css/fonts/websymbols-regular-webfont.ttf") format("truetype"),
+         url("../css/fonts/websymbols-regular-webfont.svg#WebSymbolsRegular") format("svg");
+}
