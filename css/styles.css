@@ -992,6 +992,9 @@ a {
   }
 }
 @media (max-width: 518px) {
+  #container #header #logo {
+    flex-basis: 40%;
+  }
   #container #header #logo h3 {
     font-size: 2rem;
   }
@@ -999,17 +1002,17 @@ a {
     font-size: 1.5rem;
   }
   #container #header #menu {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   #container #info #banner h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   #container #info #cards {
-    grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
     gap: 5px;
   }
   #container #info #cards .card .category {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
   #container #lateral #search input[type=button], #container #lateral #search input[type=submit] {
     font-size: 1.2rem;
@@ -1024,7 +1027,7 @@ a {
     border-radius: 0px 0px 5px 5px;
   }
   #container #footer #info_footer #browsers img {
-    width: 58px;
+    width: 45px;
   }
 }
 

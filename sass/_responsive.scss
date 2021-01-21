@@ -344,6 +344,7 @@
     #container{
         #header{
             #logo{
+                flex-basis: 40%;
                 h3{
                     font-size: 2rem;
                 }
@@ -352,21 +353,21 @@
                 }
             }
             #menu{
-                font-size: 1.3rem;
+                font-size: 1rem;
             }
         }
         #info{
             #banner{
                 h1{
-                    font-size: 2rem;
+                    font-size: 1.5rem;
                 }
             }
             #cards{
-                grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+                grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
                 gap: 5px;
                 .card{
                     .category{
-                        font-size: 0.9rem;
+                        font-size: 0.7rem;
                     }
                 }
             }
@@ -395,7 +396,7 @@
             #info_footer{
                 #browsers{
                     img{
-                        width: 58px;
+                        width: 45px;
                     }
                 }
             }
